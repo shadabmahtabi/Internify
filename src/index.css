@@ -1,0 +1,41 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+    --blue: #008BDC;
+    --grey: #686868;
+    --lightgrey: #EEEEEE;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter.ttf");
+}
+
+@font-face {
+  font-family: inter-icon;
+  src: url("./assets/fonts/internshala-icons.ttf");
+}
+
+@font-face {
+  font-family: font1;
+  src: url("./assets/fonts/KFOlCnqEu92Fr1MmEU9fBBc4.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Inter; */
+}
+
+.cards_select::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}

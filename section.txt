@@ -1,0 +1,8 @@
+nav
+search
+landing page
+latest internship
+latest job
+top companies
+login/register
+footer
